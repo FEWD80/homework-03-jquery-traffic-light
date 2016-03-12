@@ -1,5 +1,4 @@
-  
-$(document).ready(function(){
+  $(document).ready(function(){
 
   $('#stopButton').click(illuminateRed);
   $('#slowButton').click(illuminateYellow);
