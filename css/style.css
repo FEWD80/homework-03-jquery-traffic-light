@@ -39,3 +39,13 @@ h1 {
   margin: 25px auto;
   transition: background 500ms;
 }
+
+
+
+#stopLight {
+  background-color: red;
+}
+
+#clear {
+  background-color: black;
+}
