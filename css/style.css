@@ -31,6 +31,8 @@ h1 {
   padding: 20px;
 }
 
+
+
 .bulb {
   height: 150px;
   width: 150px;
@@ -39,3 +41,16 @@ h1 {
   margin: 25px auto;
   transition: background 500ms;
 }
+.red {
+  background: red;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.green {
+  background: green;
+}
+
+
