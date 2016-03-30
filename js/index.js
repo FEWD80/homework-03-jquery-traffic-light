@@ -4,18 +4,30 @@ $(function(){
 	$('#slowButton').click(illuminateYellow);
 	$('#goButton').click(illuminateGreen);
 
-
+	// Remove all the lights before illuminating light
+	// Illuminate light
 
 	function illuminateRed (){
+		clearLights();
 		$('#stopLight').css('backgroundColor', 'red');
 	}
 
 	function illuminateYellow (){
+		clearLights();
 		$('#slowLight').css('backgroundColor', 'yellow');
 	}
 
 	function illuminateGreen (){
+		clearLights();
 		$('#goLight').css('backgroundColor', 'green');
 	}
+
+	function clearLights (){
+		$('#stopLight').css('backgroundColor', 'black');
+		$('#slowLight').css('backgroundColor', 'black');
+		$('#goLight').css('backgroundColor', 'black');
+	}
+
+
 
 });
